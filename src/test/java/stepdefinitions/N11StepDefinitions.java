@@ -33,7 +33,7 @@ public class N11StepDefinitions {
 
     @And("user marka secer")
     public void userMarkaSecer() {
-        n11Page.MarkaSecimi();
+        n11Page.markaSecimi();
     }
 
     @And("user filtrelemeye tiklar")

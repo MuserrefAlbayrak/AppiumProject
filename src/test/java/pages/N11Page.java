@@ -60,7 +60,7 @@ public class N11Page {
         driver.findElement(cepTelefonu).click();
     }
 
-    public void MarkaSecimi() {
+    public void markaSecimi() {
         driver.findElement(markaApple).click();
     }
 
@@ -75,7 +75,6 @@ public class N11Page {
         driver.findElement(modelSecimi).click();
         driver.findElement(Iphone13).click();
         driver.findElement(uygulaButonu).click();
-
         driver.findElement(renkSecimi).click();
         driver.findElement(mavi).click();
         driver.findElement(uygulaButonu).click();
